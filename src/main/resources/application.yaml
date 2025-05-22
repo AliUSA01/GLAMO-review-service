@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: glamo-review-service
+  datasource:
+    url: jdbc:postgresql://localhost:2025/review-db
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+
+server:
+  port: 8083
+
